@@ -4,6 +4,7 @@ class Book:
         self.author = author
         self.year = year
 
+
     def get_info(self):
         return f"Książka: {self.title} Autor: {self.author} Rok: {self.year}"
 
