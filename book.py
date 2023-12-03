@@ -6,6 +6,3 @@ class Book:
     def get_info(self):
         return f"Książka: {self.title} Autor: {self.author} Rok: {self.year}"
 
-
-book = Book("Wiedźmin", "AS", 1999)
-print(book.get_info())
