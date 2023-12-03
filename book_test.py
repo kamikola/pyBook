@@ -6,6 +6,7 @@ from book import Book
 class TestBook(unittest.TestCase):
     def setUp(self):
         self.book = Book("Wiedźmin", "AS", 2000)
+
     def test_get_info(self):
             text_correct = "Książka: Wiedźmin Autor: AS Rok: 2000"
             text_result = self.book.get_info()
